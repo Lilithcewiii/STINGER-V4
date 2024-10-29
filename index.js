@@ -115,7 +115,7 @@ if (store && store.contacts) store.contacts[id] = { id, name: contact.notify }
 }
 })
 
-zyn.public = true
+zyn.public = false
 
 zyn.ev.on('creds.update', saveCreds)
 return zyn
